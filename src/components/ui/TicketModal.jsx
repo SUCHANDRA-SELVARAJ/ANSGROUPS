@@ -79,6 +79,12 @@ export default function TicketModal({ car, isOpen, onClose, onCheckAvailability 
                     <span className="t-lab">Extra Kilometres</span>
                     <span className="t-val">₹{car.extraKm}/km</span>
                   </div>
+                  {car.extraHour && (
+                    <div className="t-item">
+                      <span className="t-lab">Extra Hours</span>
+                      <span className="t-val">₹{car.extraHour}/hr</span>
+                    </div>
+                  )}
                   {car.fuel && (
                     <div className="t-item">
                       <span className="t-lab">Fuel Type</span>

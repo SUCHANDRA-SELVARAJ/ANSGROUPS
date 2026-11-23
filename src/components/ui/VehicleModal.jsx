@@ -93,6 +93,12 @@ export default function VehicleModal({ car, isOpen, onClose, onBookNow }) {
             <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase' }}>Extra Distance</div>
             <div style={{ fontSize: '0.95rem', fontWeight: 600 }}>₹{car.extraKm} / km</div>
           </div>
+          {car.extraHour && (
+            <div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase' }}>Extra Hours</div>
+              <div style={{ fontSize: '0.95rem', fontWeight: 600 }}>₹{car.extraHour} / hr</div>
+            </div>
+          )}
           <div>
             <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase' }}>Fuel Terms</div>
             <div style={{ fontSize: '0.95rem', fontWeight: 600 }}>Not Included (Return same)</div>
