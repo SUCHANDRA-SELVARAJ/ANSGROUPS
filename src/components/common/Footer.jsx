@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="site-footer-top">
           <Link to="/" className="nav-brand">
             <div className="nav-brand-badge">
-              <img src="/images/logo.png" alt="ANS GROUP CAR RENTAL PVT LMTD" className="nav-brand-img" />
+              <img src="./images/logo.png" alt="ANS GROUP CAR RENTAL PVT LMTD" className="nav-brand-img" />
             </div>
             <span className="nav-brand-text">ANS GROUP CAR RENTAL PVT LMTD</span>
           </Link>

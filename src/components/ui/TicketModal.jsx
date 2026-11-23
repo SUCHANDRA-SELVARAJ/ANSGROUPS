@@ -61,7 +61,7 @@ export default function TicketModal({ car, isOpen, onClose, onCheckAvailability 
                 <div className="t-head">
                   <span className="t-brand">
                     <span style={{ background: '#ffffff', padding: '2px 6px', borderRadius: '5px', display: 'inline-flex', alignItems: 'center' }}>
-                      <img src="/images/logo.png" alt="ANS GROUP" style={{ height: '14px', width: 'auto' }} />
+                      <img src="./images/logo.png" alt="ANS GROUP" style={{ height: '14px', width: 'auto' }} />
                     </span>
                     ANS GROUP
                   </span>

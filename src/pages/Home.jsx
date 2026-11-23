@@ -17,7 +17,7 @@ export default function Home() {
       <main className="hero">
         <div className="hc">
           <div className="hero-logo-box" aria-label="ANS GROUP CAR RENTAL PVT LMTD Logo">
-            <img src="/images/logo.png" alt="ANS GROUP CAR RENTAL PVT LMTD" className="hero-logo-img" />
+            <img src="./images/logo.png" alt="ANS GROUP CAR RENTAL PVT LMTD" className="hero-logo-img" />
           </div>
 
           <h1>{fullName}</h1>
@@ -37,9 +37,9 @@ export default function Home() {
         {/* Stage Graphic - Seamless Stealth Audi RS6 Showcase */}
         <div className="stage">
           <picture className="stage-picture">
-            <source media="(max-width: 640px)" srcSet="/images/hero-audi-mobile.png" />
+            <source media="(max-width: 640px)" srcSet="./images/hero-audi-mobile.png" />
             <img 
-              src="/images/hero-audi.png" 
+              src="./images/hero-audi.png" 
               alt="Audi RS6" 
             />
           </picture>

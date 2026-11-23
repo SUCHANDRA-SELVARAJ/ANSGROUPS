@@ -10,7 +10,7 @@ export const BUSINESS_CONFIG = {
   shortName: "ANS GROUP",
   tagline: "Self Drive Car Rental. Premium Cars, Best Rates.",
   shortDescription: "Welcome to ANS GROUP CAR RENTAL PVT LMTD. Whether it is a quick city run, a family outstation trip, or a rugged highway drive, choose from our verified fleet. Every rate is listed upfront per day with 200 km included.",
-  logoUrl: "/images/logo.png",
+  logoUrl: "./images/logo.png",
   
   // Official Phone Numbers
   contacts: {
@@ -73,7 +73,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual / AT",
       popular: true,
-      image: "/images/cars/xuv-700.jpg"
+      image: "./images/cars/xuv-700.jpg"
     },
     {
       id: "innova-crysta",
@@ -87,7 +87,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual / AT",
       popular: true,
-      image: "/images/cars/innova-crysta-ans.jpg"
+      image: "./images/cars/innova-crysta-ans.jpg"
     },
     {
       id: "tata-hexa",
@@ -129,7 +129,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual / AT",
       popular: true,
-      image: "/images/cars/carens.jpg"
+      image: "./images/cars/carens.jpg"
     },
     {
       id: "ertiga",
@@ -143,7 +143,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/maruti-ertiga.jpg"
+      image: "./images/cars/maruti-ertiga.jpg"
     },
     {
       id: "rumion",
@@ -185,7 +185,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/triber.jpg"
+      image: "./images/cars/triber.jpg"
     },
     {
       id: "mahindra-bolero",
@@ -199,7 +199,7 @@ export const BUSINESS_CONFIG = {
       seats: "7 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/bolero.jpg"
+      image: "./images/cars/bolero.jpg"
     },
 
     // ==================================================
@@ -231,7 +231,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/hyundai-aura.jpg"
+      image: "./images/cars/hyundai-aura.jpg"
     },
     {
       id: "baleno-at",
@@ -245,7 +245,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/maruti-baleno.jpg"
+      image: "./images/cars/maruti-baleno.jpg"
     },
     {
       id: "glanza-at",
@@ -273,7 +273,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/fronx.jpg"
+      image: "./images/cars/fronx.jpg"
     },
     {
       id: "swift-dzire-at",
@@ -301,7 +301,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/swift.jpg"
+      image: "./images/cars/swift.jpg"
     },
     {
       id: "hyundai-santro-at",
@@ -315,7 +315,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: false,
-      image: "/images/cars/hyundai-santro.jpg"
+      image: "./images/cars/hyundai-santro.jpg"
     },
     {
       id: "alto-k10-at",
@@ -329,7 +329,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/maruti-alto-k10.jpg"
+      image: "./images/cars/maruti-alto-k10.jpg"
     },
 
     // ==========================================
@@ -347,7 +347,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Automatic",
       popular: true,
-      image: "/images/cars/audi-a6-ans.jpg"
+      image: "./images/cars/audi-a6-ans.jpg"
     },
     {
       id: "thar-4x4",
@@ -361,7 +361,7 @@ export const BUSINESS_CONFIG = {
       seats: "4 Seater",
       transmission: "Manual / 4x4",
       popular: true,
-      image: "/images/cars/thar.jpg"
+      image: "./images/cars/thar.jpg"
     },
     {
       id: "honda-city",
@@ -375,7 +375,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual / AT",
       popular: true,
-      image: "/images/cars/city.jpg"
+      image: "./images/cars/city.jpg"
     },
     {
       id: "kia-seltos",
@@ -431,7 +431,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/honda-amaze.jpg"
+      image: "./images/cars/honda-amaze.jpg"
     },
     {
       id: "baleno",
@@ -445,7 +445,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/maruti-baleno.jpg"
+      image: "./images/cars/maruti-baleno.jpg"
     },
     {
       id: "elite-i20",
@@ -459,7 +459,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/i20.jpg"
+      image: "./images/cars/i20.jpg"
     },
     {
       id: "hyundai-exter",
@@ -473,7 +473,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual / AT",
       popular: true,
-      image: "/images/cars/hyundai-exter.jpg"
+      image: "./images/cars/hyundai-exter.jpg"
     },
     {
       id: "swift-dzire",
@@ -543,7 +543,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/swift.jpg"
+      image: "./images/cars/swift.jpg"
     },
     {
       id: "tata-tiago",
@@ -557,7 +557,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/tata-tiago.jpg"
+      image: "./images/cars/tata-tiago.jpg"
     },
     {
       id: "celerio",
@@ -585,7 +585,7 @@ export const BUSINESS_CONFIG = {
       seats: "5 Seater",
       transmission: "Manual",
       popular: true,
-      image: "/images/cars/maruti-alto-k10.jpg"
+      image: "./images/cars/maruti-alto-k10.jpg"
     }
   ],
 
