@@ -3,6 +3,23 @@
    Inspired by ms4wheelz: Clean, Ultra-Minimal, Stealth Automotive
    ========================================================================== */
 
+/* Suppress Netlify Injected Badge / HUD */
+#nl-badge-frame,
+#nl-hud-frame,
+iframe[id^="nl-"],
+iframe[title*="Netlify"],
+iframe[title="Powered by Netlify"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 :root {
   color-scheme: dark;
   --bg: #070b14;
